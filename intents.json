@@ -1,0 +1,525 @@
+[
+    {
+        "tag": "greetings",
+        "patterns": [
+            "Hi",
+            "Hello",
+            "Hey",
+            "Good morning",
+            "Good evening",
+            "How are you?",
+            "What's up?"
+        ],
+        "responses": [
+            "Hi there! How can I assist you with your career choices?",
+            "Hello! Ready to explore your career options?",
+            "Hey! What career questions can I answer for you today?",
+            "Good day! How may I guide you today?",
+            "Hi! Let’s find the best path for your future."
+        ]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": [
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Take care",
+            "Catch you later",
+            "Talk to you soon"
+        ],
+        "responses": [
+            "Goodbye! Have a great day ahead!",
+            "See you later! Feel free to reach out anytime.",
+            "Take care and stay safe!",
+            "Bye for now! Looking forward to our next chat.",
+            "Catch you later! All the best!",
+            "Goodbye! Wishing you all the success!"
+        ]
+    },    
+    {
+        "tag": "thank_you",
+        "patterns": [
+            "Thank you",
+            "Thanks",
+            "That's helpful",
+            "I appreciate it",
+            "You’ve been a great help"
+        ],
+        "responses": [
+            "You're welcome! Happy to help.",
+            "Glad I could assist you! Do let me know if you have more questions.",
+            "Anytime! Your career success is my goal.",
+            "It’s my pleasure. Let me know how else I can help."
+        ]
+    },
+    {
+        "tag": "about_career_guidance",
+        "patterns": [
+            "What is career guidance?",
+            "How can you help with career decisions?",
+            "What is the purpose of career guidance?",
+            "Why is career guidance important after 10th?"
+        ],
+        "responses": [
+            "Career guidance is about helping you make informed decisions about your future by understanding your interests, strengths, and goals.",
+            "I can guide you in selecting the right stream, courses, or career paths based on your preferences.",
+            "It’s crucial after 10th to ensure you choose a path aligned with your long-term aspirations. Let me assist you in exploring the options."
+        ]
+    },
+    {
+        "tag": "help_career_path",
+        "patterns": [
+            "Help me choose a career path",
+            "I need help deciding my stream",
+            "Can you guide me after 10th?",
+            "What should I do after 10th?",
+            "I’m confused about my career options",
+            "Can you help me with career advice?",
+            "What are my options after 10th?",
+            "How do I choose a career after 10th?"
+        ],
+        "responses": [
+            "Of course! I can guide you through your career options after the 10th standard. Are you interested in Science, Commerce, Arts, or vocational courses?",
+            "I’d be happy to help. Tell me about your interests, favorite subjects, or the kind of career you see yourself in, and I’ll suggest the best path for you.",
+            "Choosing a career path can be confusing, but don’t worry. Let’s explore your options together. What are your goals or areas of interest?",
+            "There are many options after 10th, from choosing a stream like Science, Commerce, or Arts to pursuing vocational training or diploma courses. I can guide you step by step.",
+            "I’m here to help! Do you have specific fields in mind, or would you like to know about all the options available after the 10th?"
+        ]
+    },
+    {
+        "tag": "credit_score",
+        "patterns": [
+            "What is a credit score?",
+            "How do I check my credit score?",
+            "How can I improve my credit score?",
+            "Why is a credit score important?",
+            "How is my credit score calculated?",
+            "What affects my credit score?"
+        ],
+        "responses": [
+            "A credit score is a three-digit number that reflects your creditworthiness. It is calculated based on factors like your payment history, amount of debt, credit history length, types of credit, and recent credit inquiries. Lenders use it to evaluate how likely you are to repay borrowed money. Scores typically range from 300 to 850, with higher scores indicating better credit health.",
+            "You can check your credit score for free on platforms like Credit Karma, Experian, or your bank's mobile app. Some credit card issuers also provide free access to your score. Always ensure the source is legitimate before sharing personal information.",
+            "To improve your credit score: 1) Pay bills on time, as payment history is the most significant factor. 2) Keep your credit card balances low. 3) Avoid opening too many new credit accounts in a short time. 4) Regularly review your credit report for errors and dispute inaccuracies.",
+            "Credit scores are crucial because they affect your ability to get loans, credit cards, and even rentals or jobs. A good credit score can save you money by qualifying you for lower interest rates and better financial products."
+        ]
+    },
+    {
+        "tag": "entrance_exams",
+        "patterns": [
+            "Which entrance exams do I need to prepare for?",
+            "What exams should I take after 10th?",
+            "Can I prepare for competitive exams now?"
+        ],
+        "responses": [
+            "After 10th, you can start preparing for exams like JEE (for engineering), NEET (for medicine), and other state-level entrance tests.",
+            "Focus on building a strong foundation in subjects like Math and Science to excel in competitive exams."
+        ]
+    },
+    {
+        "tag": "stream_selection_details",
+        "patterns": [
+            "Tell me about streams after 10th",
+            "What are the streams I can choose?",
+            "Explain science, commerce, and arts streams",
+            "What options do I have after 10th?"
+        ],
+        "responses": [
+            "After 10th, you can choose between the Science, Commerce, and Arts streams. Each stream has unique subjects and career possibilities.",
+            "Science focuses on technical and medical fields, Commerce is best for business and finance, and Arts opens paths in creativity, law, and humanities.",
+            "Choosing a stream depends on your interests and career goals. I can help you understand each option in more detail."
+        ]
+    },
+    {
+        "tag": "science_stream_detailed",
+        "patterns": [
+            "What is the science stream about?",
+            "Should I choose science?",
+            "What careers are possible with the science stream?",
+            "What subjects are in science?"
+        ],
+        "responses": [
+            "The Science stream includes subjects like Physics, Chemistry, Biology, and Mathematics. It is ideal for careers in engineering, medicine, and technology.",
+            "If you enjoy problem-solving and are curious about how things work, the science stream might be a good fit for you.",
+            "You can also explore emerging fields like AI, Data Science, and Biotechnology with this stream."
+        ]
+    },
+    {
+        "tag": "commerce_stream_detailed",
+        "patterns": [
+            "What is the commerce stream about?",
+            "What are the advantages of choosing commerce?",
+            "What careers can I pursue with commerce?",
+            "What are the subjects in commerce?"
+        ],
+        "responses": [
+            "Commerce is ideal for those interested in business, economics, and finance. Common subjects include Economics, Accountancy, and Business Studies.",
+            "It opens pathways to careers like Chartered Accountant, Financial Analyst, Business Consultant, and more.",
+            "If you have entrepreneurial aspirations or want to work in the corporate world, Commerce is a great option."
+        ]
+    },
+    {
+        "tag": "arts_stream_detailed",
+        "patterns": [
+            "What is the arts stream about?",
+            "Is arts a good stream to choose?",
+            "What can I do with an arts stream?",
+            "What are the subjects in arts?"
+        ],
+        "responses": [
+            "The Arts stream is perfect for those interested in creativity, social sciences, and humanities. Subjects include History, Political Science, and Literature.",
+            "It leads to diverse careers in journalism, law, education, design, and performing arts.",
+            "If you’re passionate about expressing ideas and exploring cultures, the Arts stream is a rewarding choice."
+        ]
+    },
+    {
+        "tag": "vocational_courses_detailed",
+        "patterns": [
+            "What are vocational courses?",
+            "Can I take vocational training after 10th?",
+            "Are vocational courses good for a career?",
+            "What can I learn in vocational courses?"
+        ],
+        "responses": [
+            "Vocational courses provide practical skills in fields like IT, healthcare, electronics, and hospitality. They are shorter than traditional degrees and highly job-focused.",
+            "You can join programs like ITI, Polytechnics, or certificate courses after 10th to gain industry-relevant skills.",
+            "These courses are great if you want to start working early or specialize in a specific trade."
+        ]
+    },
+    {
+        "tag": "iti_courses_detailed",
+        "patterns": [
+            "What are ITI courses?",
+            "Can I join ITI after 10th?",
+            "What trades are available in ITI?",
+            "What is the benefit of ITI courses?"
+        ],
+        "responses": [
+            "ITI courses are technical training programs that prepare you for specific trades like Electrician, Plumber, Mechanic, and Welder.",
+            "These courses are job-oriented and ideal for students who prefer hands-on work and wish to start their careers early.",
+            "Popular ITI trades include Fitter, Computer Operator, Civil Draftsman, and many more."
+        ]
+    },
+    {
+        "tag": "diploma_courses_detailed",
+        "patterns": [
+            "What are diploma courses?",
+            "What is a polytechnic diploma?",
+            "Can I take a diploma after 10th?",
+            "What are the career options after a diploma?"
+        ],
+        "responses": [
+            "Diploma courses, such as Polytechnic programs, offer technical education in fields like Engineering, Architecture, and IT.",
+            "These programs are shorter than traditional degrees and focus on practical skills to make you job-ready.",
+            "After completing a diploma, you can work as a technician, designer, or pursue higher studies in the same field."
+        ]
+    },
+    {
+        "tag": "engineering_career_details",
+        "patterns": [
+            "How do I become an engineer?",
+            "What is needed for a career in engineering?",
+            "What types of engineering can I pursue?",
+            "What are the career options in engineering?"
+        ],
+        "responses": [
+            "To become an engineer, choose the Science stream with Mathematics in 11th and 12th. Clear exams like JEE or state-level exams to enter engineering colleges.",
+            "Engineering fields include Civil, Mechanical, Computer Science, Electrical, and many more.",
+            "It’s a versatile career with opportunities in construction, technology, research, and innovation."
+        ]
+    },
+    {
+        "tag": "medical_career_details",
+        "patterns": [
+            "How do I become a doctor?",
+            "What subjects are needed for medicine?",
+            "What are the options in the medical field?",
+            "Should I take biology for medicine?"
+        ],
+        "responses": [
+            "To become a doctor, take the Science stream with Biology. After 12th, clear the NEET exam to join medical colleges.",
+            "Other medical careers include nursing, pharmacy, physiotherapy, and medical research.",
+            "The medical field is rewarding but requires dedication and a passion for helping others."
+        ]
+    },
+    {
+        "tag": "creative_careers",
+        "patterns": [
+            "What are creative career options?",
+            "Can I become a designer?",
+            "What is a career in photography?",
+            "What are the options in performing arts?"
+        ],
+        "responses": [
+            "Creative careers include Fashion Design, Graphic Design, Photography, Filmmaking, and Performing Arts.",
+            "If you have a passion for creating something unique, these fields can be very fulfilling.",
+            "You can pursue degrees or certifications in design schools or academies specializing in your interest."
+        ]
+    },
+    {
+        "tag": "design_career",
+        "patterns": [
+            "What is a career in design?",
+            "How do I become a designer?",
+            "Tell me about fashion designing",
+            "Is interior design a good career?",
+            "What is graphic design?"
+        ],
+        "responses": [
+            "Design careers include fashion, interior, graphic, and product design. These fields require creativity and innovation.",
+            "To start, you can pursue diploma or degree courses in your chosen design field."
+        ]
+    },
+    {
+        "tag": "cybersecurity",
+        "patterns": [
+            "What is cybersecurity?",
+            "How can I work in cybersecurity?",
+            "Is cybersecurity in demand?",
+            "Tell me about cybersecurity jobs",
+            "What skills are needed for cybersecurity?"
+        ],
+        "responses": [
+            "Cybersecurity involves protecting systems from cyber threats. Start by learning ethical hacking, networking, and coding.",
+            "It’s a high-demand field with roles like security analyst, ethical hacker, and risk manager."
+        ]
+    },
+    {
+        "tag": "entrepreneurship",
+        "patterns": [
+            "How can I start my own business?",
+            "What is entrepreneurship?",
+            "Do I need a degree to start a business?",
+            "Tell me about becoming an entrepreneur",
+            "Is entrepreneurship a good choice?"
+        ],
+        "responses": [
+            "Entrepreneurship is about solving problems through innovative ideas. You can start by learning business basics and networking with like-minded people.",
+            "Degrees are not mandatory, but skills in management, finance, and marketing can help you succeed."
+        ]
+    },{
+        "tag": "renewable_energy",
+        "patterns": [
+            "What is renewable energy?",
+            "How can I work in renewable energy?",
+            "Tell me about green energy careers",
+            "Is renewable energy the future?",
+            "What should I study for renewable energy?"
+        ],
+        "responses": [
+            "Renewable energy focuses on solar, wind, and sustainable technologies. Careers include engineering, research, and project management.",
+            "Taking science with physics and math is a good start for this exciting field."
+        ]
+    },
+    {
+        "tag": "mental_health",
+        "patterns": [
+            "I feel stressed about my career",
+            "How do I manage career pressure?",
+            "I’m worried about my future",
+            "Can I talk about my anxiety?",
+            "I feel demotivated"
+        ],
+        "responses": [
+            "It’s normal to feel this way. Take one step at a time and talk to someone you trust, like a parent or counselor.",
+            "Remember, every career path has challenges. Focus on your strengths and interests, and you’ll do great."
+        ]
+    },
+    {
+        "tag": "gaming_industry",
+        "patterns": [
+            "Can I become a game developer?",
+            "What is required for a career in gaming?",
+            "Tell me about game designing",
+            "Is gaming a good career?",
+            "How do I start in the gaming industry?"
+        ],
+        "responses": [
+            "Gaming offers roles like developer, designer, and tester. Learn programming languages like C++ and Unity, and consider courses in game design.",
+            "It’s a growing industry with opportunities in both technical and creative fields."
+        ]
+    },
+    {
+        "tag": "neuroscience_career",
+        "patterns": [
+            "What is neuroscience?",
+            "How do I become a neuroscientist?",
+            "What should I study for neuroscience?",
+            "Tell me about careers in neuroscience",
+            "Is neuroscience a good career?"
+        ],
+        "responses": [
+            "Neuroscience is the study of the nervous system and brain. You can start by taking the science stream with biology and pursuing higher studies in neuroscience.",
+            "It’s a great field for research and medical innovation. Consider courses in psychology, biology, and medicine."
+        ]
+    },
+    {
+        "tag": "aviation_career",
+        "patterns": [
+            "How can I become a pilot?",
+            "What is required for a career in aviation?",
+            "Tell me about aviation jobs",
+            "Is aviation a good career?",
+            "Do I need math for aviation?"
+        ],
+        "responses": [
+            "To become a pilot, you can take science with physics and mathematics in 12th, then join a flight school.",
+            "Aviation also includes careers in air traffic control, aircraft maintenance, and cabin crew."
+        ]
+    },
+    {
+        "tag": "ai_career",
+        "patterns": [
+            "What is artificial intelligence?",
+            "How can I get into AI?",
+            "Is AI a good career choice?",
+            "Tell me about AI and robotics",
+            "What skills do I need for AI?"
+        ],
+        "responses": [
+            "AI is the future of technology. To start, focus on learning coding, mathematics, and data science. Courses in AI and robotics are great starting points.",
+            "AI careers include machine learning engineer, AI researcher, and data scientist."
+        ]
+    },{
+        "tag": "career_confusion",
+        "patterns": [
+            "I’m confused about my future",
+            "What should I do after 10th?",
+            "I don’t know which stream to pick",
+            "Can you help me decide my career?",
+            "I’m unsure about what to study"
+        ],
+        "responses": [
+            "It’s okay to feel confused. Let’s explore your interests and strengths to find the best career path for you.",
+            "You can take an aptitude test or discuss your options with a career counselor for better clarity."
+        ]
+    },
+    {
+        "tag": "skill_based_courses",
+        "patterns": [
+            "What are skill-based courses?",
+            "Can I do short courses after 10th?",
+            "What skills can I learn?",
+            "Tell me about vocational training",
+            "What are practical courses after 10th?"
+        ],
+        "responses": [
+            "Skill-based courses focus on practical knowledge in areas like coding, graphic design, digital marketing, and more.",
+            "Vocational training includes ITI courses, polytechnic diplomas, and short certifications in trades."
+        ]
+    },
+    {
+        "tag": "law_career",
+        "patterns": [
+            "How can I become a lawyer?",
+            "What should I study for law?",
+            "Can I take arts for law?",
+            "Tell me about law careers",
+            "Which stream is good for law?"
+        ],
+        "responses": [
+            "To pursue law, complete your 12th in any stream and enroll in a BA-LLB or LLB program. Entrance exams like CLAT can help.",
+            "Law offers careers in corporate law, litigation, public service, and more."
+        ]
+    },
+    {
+        "tag": "chartered_accountant",
+        "patterns": [
+            "How do I become a CA?",
+            "What is Chartered Accountancy?",
+            "Is commerce required for CA?",
+            "Tell me about the CA course",
+            "What do CAs do?"
+        ],
+        "responses": [
+            "To become a CA, take commerce in 12th, enroll in the CA Foundation, and pass exams. Practical training is also required.",
+            "CAs work in accounting, auditing, taxation, and financial planning."
+        ]
+    },
+    {
+        "tag": "motivation",
+        "patterns": [
+            "I feel demotivated",
+            "I’m worried about my future",
+            "Can I succeed?",
+            "I feel like giving up",
+            "I’m unsure about myself"
+        ],
+        "responses": [
+            "Believe in yourself! Every successful person started with doubts but moved forward. You can too.",
+            "Your future is bright with effort and focus. Take it step by step, and you’ll get there!"
+        ]
+    },
+    {
+        "tag": "scholarships_after_10th",
+        "patterns": [
+            "Are there scholarships after 10th?",
+            "How can I get a scholarship?",
+            "Tell me about scholarships for students",
+            "Can I get financial aid after 10th?",
+            "What scholarships are available?"
+        ],
+        "responses": [
+            "Yes, many scholarships are available for students after 10th, such as state merit scholarships or private sponsorships.",
+            "Research scholarship programs offered by the government and educational institutions for financial aid."
+        ]
+    },
+    {
+        "tag": "online_courses",
+        "patterns": [
+            "Can I take online courses?",
+            "What are the best platforms for learning?",
+            "Which online courses should I take?",
+            "Tell me about online education",
+            "What are the advantages of online courses?"
+        ],
+        "responses": [
+            "Platforms like Coursera, Udemy, Khan Academy, and Skillshare offer excellent courses. You can learn programming, design, marketing, and more.",
+            "Online courses help you gain additional knowledge and certifications to strengthen your resume."
+        ]
+    },
+    {
+        "tag": "future_careers",
+        "patterns": [
+            "What are the careers of the future?",
+            "Which jobs are in demand?",
+            "What are high-paying careers?",
+            "Which careers have good scope?",
+            "Tell me about future career trends"
+        ],
+        "responses": [
+            "Careers in data science, artificial intelligence, renewable energy, healthcare, and digital marketing are in demand.",
+            "Emerging technologies like AI, blockchain, and green tech offer exciting opportunities for the future."
+        ]
+    },
+    {
+        "tag": "skill_development",
+        "patterns": [
+            "What skills should I learn?",
+            "Which skills are important for the future?",
+            "Can I improve my skills after 10th?",
+            "What are the best skills for jobs?",
+            "Tell me about skill development"
+        ],
+        "responses": [
+            "Skills like coding, communication, problem-solving, and digital literacy are highly valuable in today’s job market.",
+            "Consider learning soft skills, public speaking, or specific technical skills like graphic design or web development."
+        ]
+    },
+    {
+        "tag": "technology_career_path",
+        "patterns": [
+            "What are technology-related careers?",
+            "Can I pursue a career in technology after 10th?",
+            "What technology courses can I take after 10th?",
+            "Is IT a good career option after 10th?",
+            "What is the best way to enter the tech industry after 10th?"
+        ],
+        "responses": [
+            "Technology is an ever-growing field with exciting career options like software development, cybersecurity, data science, and more. After 10th, you can take the Science stream with a focus on Computer Science, or opt for vocational IT courses.",
+            "You can explore ITI or diploma courses in computer applications, programming, or networking. These courses provide practical skills to start a tech career early.",
+            "If you're passionate about technology, pursuing a Bachelor's degree in Computer Science, IT, or related fields after 12th is a great option.",
+            "The tech industry offers a variety of roles like web developer, app designer, ethical hacker, or even AI specialist. Start by building skills in coding or learning basic tech tools after 10th."
+        ]
+    }
+]
